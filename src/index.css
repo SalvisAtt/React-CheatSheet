@@ -92,16 +92,17 @@ html, body {
   height: 100%; /* Ensure the content takes up all available space */
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
-  grid-auto-rows: 600px; /* Set a fixed height for each row */
-  grid-gap: 10px; /* Space between grid items */
+  grid-auto-rows: 500px; /* Set a fixed height for each row */
+  grid-gap: 1px; /* Space between grid items */
   overflow-y: auto; /* Enable vertical scrolling */
   padding: 10px; /* Optional: add padding inside content area */
   white-space: nowrap; /* Prevent wrapping of items */
 }
 
 .grid-item {
+  width: 500px;
+  height: 400px;
   background-color: #3f3a3a;
-  padding: 20px;
   color: white;  
 }
 
@@ -110,7 +111,12 @@ html, body {
   font-family: monospace;
   font-size: 26px;
 }
+
 .grid-item p {
   font-family: monospace;
   font-size: 14px;
+  white-space: normal; /* Wrap long lines */
+  word-break:break-word;  /* Break long words if necessary*/
+  background-color: #222;
+  font-family: monospace; /* code-like font */
 }
