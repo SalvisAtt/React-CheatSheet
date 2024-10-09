@@ -5,6 +5,8 @@ function NavBar() {
         <button>Input</button>
         <button>Output</button>
         <button>Hooks</button>
+        <button>CSS</button>
+        <button>Hooks</button>
     </div>
     )
   }

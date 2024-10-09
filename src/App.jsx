@@ -6,8 +6,6 @@ import Content from './content';
 import React, { useState } from 'react';
 
 function App() {
-
-
   //This is to find items in the programm
   const [searchTerm, setSearchTerm] = useState('');
 

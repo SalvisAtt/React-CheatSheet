@@ -8,7 +8,7 @@ function Content({ searchTerm }) {
             id: 1,
             title: "Scrolling grid",
             content: `
-                1. height: 100%; /* Ensure the content takes up all available space */
+                1. height: 100%; /* Ensure the content takes up all available space */ {</br>}
                 2. display: grid;
                 3. grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
                 4. grid-auto-rows: 600px; /* Set a fixed height for each row */
@@ -18,6 +18,7 @@ function Content({ searchTerm }) {
                 8. white-space: nowrap; /* Prevent wrapping of items */
                 9. optional: if you want to scroll horizontally, change overflow-y to overflow-x
             `,
+            Value: 'CSS',
         },
         {
             id: 2,
@@ -26,6 +27,7 @@ function Content({ searchTerm }) {
                 1. align-items: center; /* Centers elements horizontally */
                 2. justify-content: center; /* Centers elements vertically */
             `,
+            Value: 'CSS',
         },
         {
             id: 3,
@@ -35,6 +37,7 @@ function Content({ searchTerm }) {
                 2. font-family: monospace; /* Changes the style of the text */
                 3. color: white; /* Changes the text color */
             `,
+            Value: 'CSS',
         },
         // Additional items...
     ];

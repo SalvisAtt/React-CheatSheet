@@ -1,0 +1,38 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    background-color: #3f3a3a;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid-item h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item pre {
+    background-color: #2d2b2b;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Wrap lines */
+    word-break: break-word; /* Break long words */
+  }
+  
+  .grid-item code {
+    font-family: monospace;
+    font-size: 14px;
+    color: #e0e0e0;
+  }
+  
+  
