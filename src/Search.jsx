@@ -1,7 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 function Search({ onSearch }) {
+
+    //This part is to pass values to the parent programm
     const [searchTerm, setSearchTerm] = useState('');
 
     const handleInputChange = (e) => {
