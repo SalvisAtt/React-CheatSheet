@@ -2,11 +2,10 @@
 function NavBar() {
     return (
     <div className="NavBar">
-        <button>Input</button>
-        <button>Output</button>
-        <button>Hooks</button>
-        <button>CSS</button>
-        <button>Hooks</button>
+        <button onClick={() => onselect('Input')}>Input</button>
+        <button onClick={() => onselect('Output')}>Output</button>
+        <button onClick={() => onselect('Hooks')}>Hooks</button>
+        <button onClick={() => onselect('CSS')}>CSS</button>
     </div>
     )
   }

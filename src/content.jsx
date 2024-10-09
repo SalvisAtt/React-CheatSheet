@@ -39,7 +39,10 @@ function Content({ searchTerm }) {
             `,
             Value: 'CSS',
         },
-        // Additional items...
+        {
+            id: 4,
+            title: ""
+        }
     ];
 
     // Filter the content based on the search term
